@@ -287,3 +287,15 @@
 
 ### 위치
 - background-position
+
+## 정렬
+
+### 가운데 정렬
+
+- margin: 0 auto
+- 하지만, 가운데 정렬이 안된다면 부모 요소의 width를 확인 해볼것!
+
+### text-align:center
+
+- 부모 요소가 block
+- 정렬하려는 자식 요소가 inline일 때 가능
