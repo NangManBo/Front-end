@@ -14,7 +14,7 @@
 - 장점 : 일관성 있고 전문적인 디자인을 구현 가능
 
 ## CSS 적용 
-![IMAGE](./css.png)
+![IMAGE](./Picture/css.png)
 - <link> 사용
 - 주의 할 점 : html과 같은 파일 경로에 css파일이 있는지 확인 해야 함
 
@@ -33,7 +33,7 @@
 ## Box_Sizing
 - 박스에 적용된 사이즈의 기준 정하기
 
-![IMAGE](./box-sizing.png)
+![IMAGE](./Picture/box-sizing.png)
 - content-box : 내용이 차지하는 영역에만 사이즈가 적용
     > 단점 : 위의사진 처럼 생각했던 요소의 크기 보다 크게 나올 수 있음
         -> 해결 방법 : universal selector로 전체적용
@@ -45,32 +45,32 @@
 
 ## CSS 기본 구조
 - 선택자(selector)
-![IMAGE](./selector.png)
+![IMAGE](./Picture/selector.png)
 
 - 속성(property) 
  > html이랑 영어가 다름, 영어 조심할 것
-![IMAGE](./property.png)
+![IMAGE](./Picture/Picture/property.png)
 
 - 값(value)
-![IMAGE](./value.png)
+![IMAGE](./Picture/value.png)
 
 - 선언(delaration)
-![IMAGE](./delaration.png)
+![IMAGE](./Picture/delaration.png)
 
 - 규칙(rule)
-![IMAGE](./rule.png)
+![IMAGE](./Picture/rule.png)
 
 - 요소 전체에 적용(universal)
  > 단점 : 부분적으로 수정할 때 곤란한 상황이 생김
-![IMAGE](./universal.png)
+![IMAGE](./Picture/universal.png)
 
 - 특정 태그 전체에 적용
 > 단점 : 다른 곳에 같은 헤드를 썼을 떄 중첩되어 변경 될 수 있음
-![IMAGE](./special.png)
+![IMAGE](./Picture/special.png)
 
 - 여러 태그 전체에 적용
-![IMAGE](./multi.png)
+![IMAGE](./Picture/multi.png)
 
 -특정 클래스에 해당되는 요소에 대해 적용
-![IMAGE](./special-class.png)
+![IMAGE](./Picture/special-class.png)
 
