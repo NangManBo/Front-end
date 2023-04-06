@@ -29,3 +29,48 @@
 - border: 테두리 스타일을 지정
 - margin: 바깥쪽 여백을 지정
 - padding: 안쪽 여백을 지정
+
+## Box_Sizing
+- 박스에 적용된 사이즈의 기준 정하기
+
+![IMAGE](./box-sizing.png)
+- content-box : 내용이 차지하는 영역에만 사이즈가 적용
+    > 단점 : 위의사진 처럼 생각했던 요소의 크기 보다 크게 나올 수 있음
+        -> 해결 방법 : universal selector로 전체적용
+        ![IMAGE](./box-content.png)
+        
+- border-box : 테투리, 내용 포함해서 하나의 사이즈로 적용
+               왜곡 되지않은 사이즈로 뽑을 수 있음
+
+
+## CSS 기본 구조
+- 선택자(selector)
+![IMAGE](./selector.png)
+
+- 속성(property) 
+ > html이랑 영어가 다름, 영어 조심할 것
+![IMAGE](./property.png)
+
+- 값(value)
+![IMAGE](./value.png)
+
+- 선언(delaration)
+![IMAGE](./delaration.png)
+
+- 규칙(rule)
+![IMAGE](./rule.png)
+
+- 요소 전체에 적용(universal)
+ > 단점 : 부분적으로 수정할 때 곤란한 상황이 생김
+![IMAGE](./universal.png)
+
+- 특정 태그 전체에 적용
+> 단점 : 다른 곳에 같은 헤드를 썼을 떄 중첩되어 변경 될 수 있음
+![IMAGE](./special.png)
+
+- 여러 태그 전체에 적용
+![IMAGE](./multi.png)
+
+-특정 클래스에 해당되는 요소에 대해 적용
+![IMAGE](./special-class.png)
+
