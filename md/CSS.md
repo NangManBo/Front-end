@@ -45,32 +45,41 @@
 
 ## CSS 기본 구조
 - 선택자(selector)  
-![IMAGE](./Picture/selector.png)
+  
+  ![IMAGE](./Picture/selector.png)
 
 - 속성(property) 
- > html이랑 영어가 다름, 영어 조심할 것  
-![IMAGE](./Picture/property.png)
+  > html이랑 영어가 다름, 영어 조심할 것  
+  
+  ![IMAGE](./Picture/property.png)
 
-- 값(value)  
-![IMAGE](./Picture/value.png) 
+- 값(value)   
+  
+  ![IMAGE](./Picture/value.png) 
 
 - 선언(delaration)  
-![IMAGE](./Picture/delaration.png)
+  
+  ![IMAGE](./Picture/delaration.png)
 
 - 규칙(rule)  
-![IMAGE](./Picture/rule.png)
+  
+  ![IMAGE](./Picture/rule.png)
 
 - 요소 전체에 적용(universal)
- > 단점 : 부분적으로 수정할 때 곤란한 상황이 생김  
-![IMAGE](./Picture/universal.png)
+  > 단점 : 부분적으로 수정할 때 곤란한 상황이 생김  
+  
+  ![IMAGE](./Picture/universal.png)
 
 - 특정 태그 전체에 적용
-> 단점 : 다른 곳에 같은 헤드를 썼을 떄 중첩되어 변경 될 수 있음  
-![IMAGE](./Picture/special.png)
+  > 단점 : 다른 곳에 같은 헤드를 썼을 떄 중첩되어 변경 될 수 있음  
+  
+  ![IMAGE](./Picture/special.png)
 
 - 여러 태그 전체에 적용  
-![IMAGE](./Picture/multi.png)
+  
+  ![IMAGE](./Picture/multi.png)
 
--특정 클래스에 해당되는 요소에 대해 적용  
-![IMAGE](./Picture/special-class.png)
+- 특정 클래스에 해당되는 요소에 대해 적용  
+  
+  ![IMAGE](./Picture/special-class.png)
 
