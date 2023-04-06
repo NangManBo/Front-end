@@ -38,8 +38,7 @@
      이유 -> 주석처리를 한 개인정보 등 중요한 것이 브라우저를 통해 노출 될 수 있기 때문!
 
 ## 이미지 추가 설명
-![IMAGE](C:\Users\kimbo\OneDrive - 계명대학교\바탕 화면\code.png)
-
+![IMAGE]("C:\Users\kimbo\OneDrive - 계명대학교\바탕 화면\Frontend\code.png")
 ### !DOCTYPE html
 - html문서라는 것을 선언해주는 것
 
