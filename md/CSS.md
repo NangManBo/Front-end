@@ -116,7 +116,7 @@
 - content-box : 내용이 차지하는 영역에만 사이즈가 적용
     > 단점 : 위의사진 처럼 생각했던 요소의 크기 보다 크게 나올 수 있음
         -> 해결 방법 : universal selector로 전체적용
-          ![IMAGE](./box-content.png)
+          ![IMAGE](./Picture/box-content.png)
         
 - border-box : 테투리, 내용 포함해서 하나의 사이즈로 적용
                왜곡 되지않은 사이즈로 뽑을 수 있음
@@ -234,3 +234,56 @@
 
 
 ## 폰트 꾸미기
+
+### 색상
+- color : 원하는 색깔   
+- 영어에 제한이 있기 때문에 Hex color 사용 (Red/Green/Blue)  
+- #000000 -> # 뒤에 6자리  
+  
+### 크기
+- font-size: 크기;
+  
+### 글자 기울기
+- font-style: italic
+  
+### 글자 굵기
+- fotn-weight: bold
+
+### 글자 밑줄
+ - text-decoration: underline   
+ - text-decoration: non -> 밑줄 표시 제거
+
+### 링크 구분
+- 그림과 같이 순서를 맞게 하기  
+
+  ![IMAGE](./Picture/link.png)
+
+
+## 테두리 꾸미기
+
+- 기본
+
+  ![IMAGE](./Picture/container.png)
+
+- 모서리 둥글게 : border-radius:
+
+## 배경 이미지
+
+### 색깔
+- background-color:
+
+### 이미지
+- background-image: 경로
+- div 크기를 넘어가면 짤림
+
+### 패턴
+- background-repeat:
+- 반복 안하려면 :뒤에 no-repeat
+
+### 크기
+- background-size:
+- cover : 요소의 배경을 모두 덮는 것이 우선
+- contain : 이미지가 온전히 나오게하는 것이 우선
+
+### 위치
+- background-position
