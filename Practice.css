@@ -1,7 +1,44 @@
-h1{
-    color:#006030;
+html{
+    background-color: black;
 }
 
-h2.name{
-    color:#008030;
+
+h1{
+    color:#000000;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 1520px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2.hi{
+    color:#ffffff;
+    font-size: 15px;
+}
+
+h2.hobby{
+    color:#ffffff;
+    font-size: 15px;
+}
+
+p.game{
+    color:#ffffff;
+}
+
+
+ul{
+    color:#ffffff;
+}
+
+div.fifa{
+    box-sizing: border-box;
+   
+    border-style: solid;
+}
+
+div.lol{
+    box-sizing: border-box;
+   
+    border-style: solid;
 }
