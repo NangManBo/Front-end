@@ -38,23 +38,23 @@
      이유 -> 주석처리를 한 개인정보 등 중요한 것이 브라우저를 통해 노출 될 수 있기 때문!
 
 ## 이미지 추가 설명
+![IMAGE](C:\Users\kimbo\OneDrive - 계명대학교\바탕 화면\code.png)
 
-
-### <!DOCTYPE html>
+### !DOCTYPE html
 - html문서라는 것을 선언해주는 것
 
-### <html lang="ko"> 
+### html lang="ko"
 - 이 html이 무슨 언어로 되었는지 알려주는 것
 
-### <head>
+### head
 - 브라우저 화면에 안나타남
 - 웹문서의 속성, 인코딩 방식, 외부 리소스를 로드하는 설정 같은 성격
 
-### <meta charset="UTF-8">
+### meta charset="UTF-8"
 - meta 태그는 여러개 있을 수 있고 안에 있는 attribute에 따라 용도가 달라짐
 - utf-8은 다른 언어가 깨지는 걸 막아줌
 
-### <meta http-equiv="X-UA-Compatible" content="IE=edge">
+### meta http-equiv="X-UA-Compatible" content="IE=edge"
 - 브라우저 호환성을 맞춰주는 용도
 - 왜냐하면 버전에 따라 같은문서를 다르게 해석한 적이 있기 때문
 
