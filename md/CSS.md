@@ -299,3 +299,31 @@
 
 - 부모 요소가 block
 - 정렬하려는 자식 요소가 inline일 때 가능
+
+## Position
+
+### static
+
+- static은 모든 요소의 디폴트 값 생성된 원래 위치
+
+### relative
+
+- 거리 이동
+- left: 50px이면 왼쪽으로 부터 50px 만큼 움직임
+
+### absolute
+
+- 가장 가까운 부모를 기준
+- body를 기준으로 위치를 움직임
+- margin에 영향 안받음
+
+![IMAGE](./Picture/absolute.png)
+
+
+### fixed
+
+- 브라우저 영역에 항상 고정
+
+### sticky
+
+- 스티커 처럼 계속 붙어 있는 개념

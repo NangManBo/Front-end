@@ -1,44 +1,111 @@
-html{
-    background-color: black;
+
+/* 페이지 전체 */
+html {
+    background-color: rgb(255, 255, 255);
 }
 
-
-h1{
-    color:#000000;
+/* 첫번째 제목 */
+h1.logo {
+    color: #ffffff;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #476cff;
     width: 1520px;
-    font-size: 20px;
+    height: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
-h2.hi{
-    color:#ffffff;
+@media (max-width: 800px){
+    .logo{
+        width :760px;
+        height:40px;
+    font-size: 30px;
+    }
+}
+    
+
+/* h2 ~ li까지 담고있는 container */
+div.container_1 {
+    background-color: #476cff;
+    box-sizing: border-box;
+    position:absolute;
+    top:100px;
+    width: 1520px;
+    height: 170px;
+}
+
+/* 소개 인사 */
+h2.hi {
+    color: #ffffff;
+    position: relative;
+    left: 5px;
+    font-size: 18px;
+}
+
+/* 취미 */
+h2.hobby {
+    color: #ffffff;
+    position: relative;
+    left: 10px;
     font-size: 15px;
 }
 
-h2.hobby{
-    color:#ffffff;
+/* 게임 */
+h3.game {
+    position: relative;
+    font-size: 14px;
+    left: 15px;
+    color: #ffffff;
+}
+
+/* 게임 목록 */
+ul {
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+/* 피파 */
+li.fiftitle {
+    font-size: 14px;
+    left: 25px;
+
+}
+
+/* 롤 */
+li.loltitile {
+    font-size: 14px;
+    left: 25px;
+}
+
+/* 피파 이미지 */
+div.fifaimg {
+    box-sizing: border-box;
+    position: absolute;
+    left: 10px;
+    top: 280px;
+}
+
+/* 롤 이미지 */
+div.lolimg {
+    box-sizing: border-box;
+    position: absolute;
+    left: 350px;
+    top: 280px;
+}
+
+div.container_2{
+    background-color: #476cff;
+    box-sizing: border-box;
+    position: absolute;
+    top: 470px;
+    width: 1520px;
+    height: 170px;
+}
+
+.food{
+    
+    color: #ffffff;
+    position: relative;
+    left: 10px;
     font-size: 15px;
-}
-
-p.game{
-    color:#ffffff;
-}
-
-
-ul{
-    color:#ffffff;
-}
-
-div.fifa{
-    box-sizing: border-box;
-   
-    border-style: solid;
-}
-
-div.lol{
-    box-sizing: border-box;
-   
-    border-style: solid;
 }
