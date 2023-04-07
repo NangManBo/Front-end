@@ -13,6 +13,11 @@
 
      <p>: 문단
      <a>: 링크(anchor)를 나타내며, href 속성을 사용하여 링크 대상의 URL을 지정
+           >  a {
+                    color: inherit;          -> 글자 색 변경 X
+                    text-decoration: none;   -> 링크 밑줄 X
+                 }
+          
      <img>: 이미지를 나타내며, src 속성을 사용하여 이미지 파일의 경로를 지정
            > div로 마크업 후 사용  
             src ="경로"  
