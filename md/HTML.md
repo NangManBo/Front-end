@@ -28,7 +28,25 @@
      <table>: 표(table)를 나타내며, <tr> 요소를 포함하고 각 행(row)은  <td> : 요소를 포함
      <h1 ~ 6> : 제목
      <span> : 텍스트의 일부분만 영향을 주기 위해 사용, 의미를 부여하지는 않음
+       - class="blind" : 검색 버튼 라벨을 시각적으로 숨기기 위해 사용
      <div> : 여러가지 HTML 요소를 묶어 그룹화 
+     <fieldset> : 일반적으로 <form> 요소 안에서 사용, 관련된 폼 컨트롤들을 묶어서 하나의 그룹으로 만들고, 이 그룹에 대한 설명을 제공하는 역할
+
+      - 예시
+       <form>
+        <fieldset>
+          <legend>개인 정보</legend>
+          <label for="name">이름:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">이메일:</label>
+          <input type="email" id="email" name="email"><br><br>
+        </fieldset>
+       </form>
+     <legend> : <fieldset> 요소에 대한 설명을 제공
+     <input> : 사용자로부터 텍스트를 입력받는데 사용
+       - type="text" 속성은 입력 필드가 텍스트 입력 필드임을 나타냄
+     <button> 요소: 이 요소는 사용자가 클릭할 수 있는 버튼을 나타냄
+
   
 ## HTML속성(attribute)
   - 요소(element)에 대한 추가 정보를 제공

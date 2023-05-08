@@ -1,7 +1,7 @@
 
 
 div.header {
-    background: rgb(212, 254, 201);
+    background: white(212, 254, 201);
     
     position: absolute;
 
@@ -19,7 +19,7 @@ div.main {
     left : 2%;
     top: 20%;
     width: 96%;
-    height: 75%;
+    height: 127%;
 }
 
 div.footer {
@@ -27,7 +27,7 @@ div.footer {
 
     position: absolute;
 
-    top: 90%;
+    top: 150%;
     left: 2%;
     width: 96%;
     height: 8%;
