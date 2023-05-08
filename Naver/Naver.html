@@ -15,12 +15,19 @@
     
     <!-- 검색창, 배너 -->
     <div class = "header">
-        <form>
-            <fieldset>
-              <legend>검색 창</legend>
-              <label for="name">검색:</label>
-              <input type="text" id="name" name="name"><br><br>
-              <button>검색</button> <!--클릭이 가능한 버튼-->
+        <form calss = "search_form">
+            <fieldset class = "search_fieldset">
+            <div class = "search_box"> 
+                <a class = "search_link" href="file:///C:/Users/kimbo/OneDrive%20-%20%EA%B3%84%EB%AA%85%EB%8C%80%ED%95%99%EA%B5%90/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/Frontend/Naver/Naver.html?name=">
+                     <img src="./Naver.png" alt="NAVER">
+                </a>
+              <label id = "search_label" for="name"></label>
+              <input type="text" id = "search_input">
+              <button class = "search_button">
+                <img src="./Search.png" alt="검색">
+              </button> 
+            </div>
+              
             </fieldset>
           </form>
     </div>
