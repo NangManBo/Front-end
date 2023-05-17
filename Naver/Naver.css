@@ -74,14 +74,18 @@ div.main {
 
 .login_button{
     border : none;
-    background: none;
+    background: none; 
+    background-image: url("./login.png");
+    background-size: contain;
 
-    margin-top :10%;
-
-    width: 280px;
-    height: 140px;
+    position: absolute;
+    
+    left : 6%;
+    top: 35%;
+    width: 270px;
+    height: 40px;
+    
 }
-
 
 div.footer {
     background-color: #d5fffa;
