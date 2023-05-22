@@ -45,6 +45,13 @@
      -Post
 ![Image](./Picture/post%20ex.png)
 
+     - action 속성 : 어떤 기능을 요청할지 정의( 값은 반드시 유효한 URL )
+      
+       도메인의 URL을 기준
+![Image](./Picture/domain_action.png)
+
+       상대 경로를 사용해 같은 토메인의 URL을 기준
+![Image](./Picture/enemy_action.png)
 
      <fieldset> : 일반적으로 <form> 요소 안에서 사용, 관련된 폼 컨트롤들을 묶어서 하나의 그룹으로 만들고, 이 그룹에 대한 설명을 제공하는 역할
 
