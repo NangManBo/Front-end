@@ -37,13 +37,13 @@
 
      - 예시
          
-     ![Image](./Picture/Form%20ex.png)
+![Image](./Picture/Form%20ex.png)
           
      - Get
-     ![Image](./Picture/Get%20ex.png)
+![Image](./Picture/Get%20ex.png)
 
      -Post
-     ![Image](./Picture/post%20ex.png)
+![Image](./Picture/post%20ex.png)
 
 
      <fieldset> : 일반적으로 <form> 요소 안에서 사용, 관련된 폼 컨트롤들을 묶어서 하나의 그룹으로 만들고, 이 그룹에 대한 설명을 제공하는 역할
