@@ -9,59 +9,59 @@
   - 태그를 붙이는 작업 markup
   - 뒤에오는 태그에는 /를 붙여주기
 
- > 자주 사용되는 요소
+ 자주 사용되는 요소
 
-   <p>: 문단
-   <a>: 링크(anchor)를 나타내며, href 속성을 사용하여 링크 대상의 URL을 지정
+    <p>: 문단
+    <a>: 링크(anchor)를 나타내며, href 속성을 사용하여 링크 대상의 URL을 지정
     >  a {
             color: inherit;          -> 글자 색 변경 X
             text-decoration: none;   -> 링크 밑줄 X
         }
           
-  <img>: 이미지를 나타내며, src 속성을 사용하여 이미지 파일의 경로를 지정
+    <img>: 이미지를 나타내며, src 속성을 사용하여 이미지 파일의 경로를 지정
       > div로 마크업 후 사용  
         src ="경로"  
         alt ="대체 문구"  
-  <li> : 목록을 나타내는 것
-  <ul>: 번호가 없는 목록(unordered list)을 나타내며, <li> 요소를 포함
-  <ol>: 번호가 있는 목록(ordered list)을 나타내며, <li> 요소를 포함
-  <table>: 표(table)를 나타내며, <tr> 요소를 포함하고 각 행(row)은  <td> : 요소를 포함
-  <h1 ~ 6> : 제목
-  <span> : 텍스트의 일부분만 영향을 주기 위해 사용, 의미를 부여하지는 않음
-  <div> : 여러가지 HTML 요소를 묶어 그룹화 
-  <form> : 단순한 요소가 아니라 사용자(클라이언트)와 웹 서버가 서로 통신하는 기술 중 하나의 방법
-  HTML을 작성할 때 주로 사용자에게 정보를 입력받거나 전달받기 위해 사용되는 요소
+    <li> : 목록을 나타내는 것
+    <ul>: 번호가 없는 목록(unordered list)을 나타내며, <li> 요소를 포함
+    <ol>: 번호가 있는 목록(ordered list)을 나타내며, <li> 요소를 포함
+    <table>: 표(table)를 나타내며, <tr> 요소를 포함하고 각 행(row)은  <td> : 요소를 포함
+    <h1 ~ 6> : 제목
+    <span> : 텍스트의 일부분만 영향을 주기 위해 사용, 의미를 부여하지는 않음
+    <div> : 여러가지 HTML 요소를 묶어 그룹화 
+    <form> : 단순한 요소가 아니라 사용자(클라이언트)와 웹 서버가 서로 통신하는 기술 중 하나의 방법
+    HTML을 작성할 때 주로 사용자에게 정보를 입력받거나 전달받기 위해 사용되는 요소
   
-   - GET, POST 이 두 가지 방식만 사용
-   - GET과 POST의 차이는 데이터를 보낼 때 body가 없느냐(GET), body가 있느냐(POST)가 가장 큰 차이점
+     - GET, POST 이 두 가지 방식만 사용
+     - GET과 POST의 차이는 데이터를 보낼 때 body가 없느냐(GET), body가 있느냐(POST)가 가장 큰 차이점
 
-   - 예시
+     - 예시
          
-   ![Image](./Picture/Form%20ex.png)
+     ![Image](./Picture/Form%20ex.png)
           
-   - Get
-   ![Image](./Picture/Get%20ex.png)
+     - Get
+     ![Image](./Picture/Get%20ex.png)
 
-   -Post
-   ![Image](./Picture/post%20ex.png)
+     -Post
+     ![Image](./Picture/post%20ex.png)
 
 
-   <fieldset> : 일반적으로 <form> 요소 안에서 사용, 관련된 폼 컨트롤들을 묶어서 하나의 그룹으로 만들고, 이 그룹에 대한 설명을 제공하는 역할
+     <fieldset> : 일반적으로 <form> 요소 안에서 사용, 관련된 폼 컨트롤들을 묶어서 하나의 그룹으로 만들고, 이 그룹에 대한 설명을 제공하는 역할
 
-   - 예시
-    <form>
-     <fieldset>
-       <legend>개인 정보</legend>
-       <label for="name">이름:</label>
-       <input type="text" id="name" name="name"><br><br>
-       <label for="email">이메일:</label>
-       <input type="email" id="email" name="email"><br><br>
-      </fieldset>
-    </form>
-    <legend> : <fieldset> 요소에 대한 설명을 제공
-    <input> : 사용자로부터 텍스트를 입력받는데 사용
-      - type="text" 속성은 입력 필드가 텍스트 입력 필드임을 나타냄
-    <button> 요소: 이 요소는 사용자가 클릭할 수 있는 버튼을 나타냄
+     - 예시
+      <form>
+       <fieldset>
+         <legend>개인 정보</legend>
+         <label for="name">이름:</label>
+         <input type="text" id="name" name="name"><br><br>
+         <label for="email">이메일:</label>
+         <input type="email" id="email" name="email"><br><br>
+        </fieldset>
+      </form>
+      <legend> : <fieldset> 요소에 대한 설명을 제공
+      <input> : 사용자로부터 텍스트를 입력받는데 사용
+        - type="text" 속성은 입력 필드가 텍스트 입력 필드임을 나타냄
+      <button> 요소: 이 요소는 사용자가 클릭할 수 있는 버튼을 나타냄
 
   
 ## HTML속성(attribute)
